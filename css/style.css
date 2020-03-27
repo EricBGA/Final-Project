@@ -1,0 +1,176 @@
+body {
+  font-family: "Parisienne", cursive;
+}
+
+.bg-container {
+  background-image: url("../assets/Logo.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bg-img {
+  background-image: url("Logo.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.h-70 {
+  height: 70px;
+}
+
+.content-wrapper {
+  width: 80%;
+  margin: 4% 10% 5% 10%;
+}
+
+.content-wrapper img {
+  width: 100%;
+}
+
+.d-none {
+  display: none;
+}
+
+.text-wrapper {
+  width: 100%;
+  position: relative;
+  margin: center;
+  z-index: -1;
+}
+
+.w-100vw {
+  width: 100vw;
+}
+
+.h-100 {
+  height: 100vh;
+}
+
+.bg-navy {
+  background-color: navy;
+}
+
+.bg-beige {
+  background-color: beige;
+}
+
+.display-inline {
+  display: inline;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.font-18px {
+  font-size: 18px;
+}
+
+.font-20px {
+  font-size: 20px;
+}
+
+.font-48px {
+  font-size: 48px;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-yellow {
+  color: yellow;
+}
+
+.first-letter-bold:first-letter {
+  font-size: 48px;
+  float: left;
+  padding-right: 1rem;
+}
+.ml-10 {
+  margin-left: 10rem;
+}
+
+.pl-3 {
+  padding-left: 3rem;
+}
+
+.pl-5 {
+  padding-left: 5rem;
+}
+
+.pr-15 {
+  padding-right: 15rem;
+}
+
+.pb-4 {
+  padding-bottom: 4rem;
+}
+
+.mr-10 {
+  margin-right: 10rem;
+}
+
+.mr-20 {
+  margin-right: 20rem;
+}
+
+.ml-10 {
+  margin-left: 10rem;
+}
+
+.desktop-menu {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.mobile-only {
+  display: none;
+}
+
+#appMenuPopup {
+  position: absolute;
+  top: 79px;
+  right: 56px;
+  padding: 3rem;
+  background-color: #033048;
+  width: fit-content;
+}
+#appMenuPopup ul li {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+#appMenuPopup ul li a {
+  color: white;
+  font-size: 2em;
+}
+.d-none {
+  display: none;
+}
+
+@media only screen and (max-width: 1280px) {
+  .mobile-only {
+    display: block;
+  }
+  .only-on-desktop {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /*.only-on-desktop {
+    display: none;
+  }*/
+}
